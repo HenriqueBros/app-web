@@ -17,6 +17,6 @@ app.get("/goodbye", function (req, res) {
 });
 
 // set up the root route
-app.get("/", function (req, res) {
-    res.send("This is the root route!");
+app.get("/index", function (req, res) {
+    res.send("<html><head></head><body><h1>Ola mundo!!!!</h1></body></html>");
 });

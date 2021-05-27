@@ -2,7 +2,8 @@ var main = function () {
     "use strict";
 
     var insertCountsIntoDOM = function (counts) {
-        $("p").text("awesome: " + counts.awesome);
+        $("p").text("bolsonaro: " + counts.bolsonaro);
+        $("h4").text("CPI: " + counts.cpi);
     };
     
     setInterval(function () {
